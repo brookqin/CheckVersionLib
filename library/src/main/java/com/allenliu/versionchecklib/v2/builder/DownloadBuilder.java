@@ -1,11 +1,8 @@
 package com.allenliu.versionchecklib.v2.builder;
 
 import android.content.Context;
-import android.content.Intent;
-import android.support.annotation.NonNull;
 
 import com.allenliu.versionchecklib.callback.APKDownloadListener;
-import com.allenliu.versionchecklib.callback.DialogDismissListener;
 import com.allenliu.versionchecklib.callback.OnCancelListener;
 import com.allenliu.versionchecklib.utils.FileHelper;
 import com.allenliu.versionchecklib.v2.callback.CustomDownloadFailedListener;
@@ -13,6 +10,8 @@ import com.allenliu.versionchecklib.v2.callback.CustomDownloadingDialogListener;
 import com.allenliu.versionchecklib.v2.callback.CustomVersionDialogListener;
 import com.allenliu.versionchecklib.v2.callback.ForceUpdateListener;
 import com.allenliu.versionchecklib.v2.ui.VersionService;
+
+import androidx.annotation.NonNull;
 
 /**
  * Created by allenliu on 2018/1/12.

@@ -2,7 +2,6 @@ package com.allenliu.sample.v1;
 
 import android.content.DialogInterface;
 import android.os.Bundle;
-import android.support.v7.app.AlertDialog;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -12,13 +11,15 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.allenliu.sample.R;
-import com.allenliu.versionchecklib.core.VersionDialogActivity;
 import com.allenliu.versionchecklib.callback.APKDownloadListener;
-import com.allenliu.versionchecklib.callback.DialogDismissListener;
 import com.allenliu.versionchecklib.callback.CommitClickListener;
+import com.allenliu.versionchecklib.callback.DialogDismissListener;
+import com.allenliu.versionchecklib.core.VersionDialogActivity;
 import com.allenliu.versionchecklib.core.http.AllenHttp;
 
 import java.io.File;
+
+import androidx.appcompat.app.AlertDialog;
 
 /**
  * @author allenliu

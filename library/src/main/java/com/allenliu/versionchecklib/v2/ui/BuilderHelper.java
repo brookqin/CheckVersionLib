@@ -1,7 +1,6 @@
 package com.allenliu.versionchecklib.v2.ui;
 
 import android.content.Context;
-import android.content.Intent;
 
 import com.allenliu.versionchecklib.R;
 import com.allenliu.versionchecklib.core.DownloadManager;

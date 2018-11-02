@@ -1,10 +1,8 @@
 package com.allenliu.versionchecklib.v2.callback;
 
-import android.os.Bundle;
-import android.support.annotation.Nullable;
-
-import com.allenliu.versionchecklib.core.VersionParams;
 import com.allenliu.versionchecklib.v2.builder.UIData;
+
+import androidx.annotation.Nullable;
 
 /**
  * Created by allenliu on 2018/1/12.

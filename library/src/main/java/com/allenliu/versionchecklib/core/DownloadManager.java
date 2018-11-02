@@ -13,7 +13,6 @@ import android.media.Ringtone;
 import android.media.RingtoneManager;
 import android.net.Uri;
 import android.os.Build;
-import android.support.v4.app.NotificationCompat;
 
 import com.allenliu.versionchecklib.R;
 import com.allenliu.versionchecklib.callback.DownloadListener;
@@ -24,6 +23,7 @@ import com.allenliu.versionchecklib.utils.AppUtils;
 
 import java.io.File;
 
+import androidx.core.app.NotificationCompat;
 import okhttp3.Call;
 import okhttp3.Request;
 import okhttp3.Response;

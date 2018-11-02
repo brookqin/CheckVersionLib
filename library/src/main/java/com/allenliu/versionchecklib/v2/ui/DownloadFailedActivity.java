@@ -2,8 +2,6 @@ package com.allenliu.versionchecklib.v2.ui;
 
 import android.app.Dialog;
 import android.content.DialogInterface;
-import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
@@ -12,6 +10,8 @@ import com.allenliu.versionchecklib.utils.ALog;
 import com.allenliu.versionchecklib.utils.AllenEventBusUtil;
 import com.allenliu.versionchecklib.v2.AllenVersionChecker;
 import com.allenliu.versionchecklib.v2.eventbus.AllenEventType;
+
+import androidx.appcompat.app.AlertDialog;
 
 public class DownloadFailedActivity extends AllenBaseActivity implements DialogInterface.OnCancelListener {
     private Dialog downloadFailedDialog;

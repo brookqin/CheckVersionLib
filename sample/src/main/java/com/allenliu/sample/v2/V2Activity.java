@@ -2,8 +2,6 @@ package com.allenliu.sample.v2;
 
 import android.app.Dialog;
 import android.content.Context;
-import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.CheckBox;
@@ -24,6 +22,9 @@ import com.allenliu.versionchecklib.v2.callback.CustomDownloadFailedListener;
 import com.allenliu.versionchecklib.v2.callback.CustomDownloadingDialogListener;
 import com.allenliu.versionchecklib.v2.callback.CustomVersionDialogListener;
 import com.allenliu.versionchecklib.v2.callback.RequestVersionListener;
+
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
 
 public class V2Activity extends AppCompatActivity {
 

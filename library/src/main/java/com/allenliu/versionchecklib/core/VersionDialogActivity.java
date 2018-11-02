@@ -1,23 +1,14 @@
 package com.allenliu.versionchecklib.core;
 
 import android.Manifest;
-import android.annotation.TargetApi;
-import android.app.Activity;
 import android.app.Dialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
-import android.graphics.Color;
-import android.os.Build;
 import android.os.Bundle;
-import android.support.v4.app.ActivityCompat;
-import android.support.v4.content.ContextCompat;
-import android.support.v7.app.AlertDialog;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
-import android.view.WindowManager;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -33,6 +24,10 @@ import com.allenliu.versionchecklib.utils.AppUtils;
 import com.allenliu.versionchecklib.v2.ui.AllenBaseActivity;
 
 import java.io.File;
+
+import androidx.appcompat.app.AlertDialog;
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
 
 public class VersionDialogActivity extends AllenBaseActivity implements DownloadListener, DialogInterface.OnDismissListener {
 

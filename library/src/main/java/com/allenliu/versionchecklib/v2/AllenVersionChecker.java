@@ -2,14 +2,13 @@ package com.allenliu.versionchecklib.v2;
 
 import android.content.Context;
 import android.content.Intent;
-import android.os.Bundle;
-import android.support.annotation.Nullable;
 
-import com.allenliu.versionchecklib.core.http.AllenHttp;
 import com.allenliu.versionchecklib.v2.builder.DownloadBuilder;
 import com.allenliu.versionchecklib.v2.builder.RequestVersionBuilder;
 import com.allenliu.versionchecklib.v2.builder.UIData;
 import com.allenliu.versionchecklib.v2.ui.VersionService;
+
+import androidx.annotation.Nullable;
 
 /**
  * Created by allenliu on 2018/1/12.

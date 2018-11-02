@@ -7,10 +7,6 @@ import android.content.Intent;
 import android.os.Handler;
 import android.os.IBinder;
 import android.os.Looper;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.annotation.WorkerThread;
-import android.support.v4.app.JobIntentService;
 
 import com.allenliu.versionchecklib.R;
 import com.allenliu.versionchecklib.callback.DownloadListener;
@@ -37,6 +33,8 @@ import org.greenrobot.eventbus.ThreadMode;
 import java.io.File;
 import java.io.IOException;
 
+import androidx.annotation.Nullable;
+import androidx.annotation.WorkerThread;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;

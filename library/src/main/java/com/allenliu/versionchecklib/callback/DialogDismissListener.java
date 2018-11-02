@@ -1,6 +1,5 @@
 package com.allenliu.versionchecklib.callback;
 
-import android.app.Dialog;
 import android.content.DialogInterface;
 
 /**
